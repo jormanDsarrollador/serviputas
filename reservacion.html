@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="anima_login.css">
+<title>Registro y Reservación</title>
+</head>
+<body>
+<div class="container">
+  <div class="form-container">
+    <h2>Registro</h2>
+    <form action="registro.php" method="post">
+      <label for="tipoUsuario">Selecciona el tipo de usuario:</label>
+      <select name="tipoUsuario" id="tipoUsuario">
+        <option value="cliente">Cliente</option>
+        <option value="empleado">Empleado</option>
+      </select>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" required>
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" required min="18" max="28">
+      <label for="telefono">Número de Teléfono:</label>
+      <input type="tel" name="telefono" required>
+      <button type="submit">Registrarse</button>
+    </form>
+  </div>
+  <div class="reservation-container">
+    <h2>Reservación</h2>
+    <form action="reservacion.php" method="post">
+      <label for="nombreCliente">Nombre y Apellido:</label>
+      <input type="text" name="nombreCliente" required>
+      <label for="edadCliente">Edad:</label>
+      <input type="number" name="edadCliente" required min="18">
+      <label for="fechaReserva">Fecha de Reservación:</label>
+      <input type="date" name="fechaReserva" required>
+      <button type="submit">Reservar</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

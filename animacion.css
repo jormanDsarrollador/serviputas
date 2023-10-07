@@ -1,0 +1,60 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #F3E6F3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin-right: 10px;
+}
+
+.titulo {
+    color: #9C27B0; /* Morado */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    border-bottom: 1px solid #DDD;
+}
+
+/* Estilos para la oferta especial */
+.oferta {
+    background-color: #FCE4EC; /* Rosa */
+}
+
+/* Estilos para la sección de más información */
+.mas-informacion {
+    background-color: #E1BEE7; /* Morado más claro */
+}
+
+/* Estilos para la sección de contacto */
+.contacto {
+    background-color: #FFCDD2; /* Rosa más claro */
+}
+
+/* Estilos para el enlace de WhatsApp */
+.contacto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #9C27B0; /* Morado */
+    text-decoration: none;
+}
+
+/* Estilos para el cuadro de ubicación */
+.ubicacion {
+    width: 150px;
+    height: 150px;
+    background-color: #E91E63; /* Rosa oscuro */
+    margin: 10px auto;
+}
